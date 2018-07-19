@@ -6,3 +6,9 @@ end
 def sum_multiples(limit)
   collect_multiples(limit).inject(:+)
 end
+
+
+
+def combination
+  (1...1000).select { |x| x % 3 == 0 || x % 5 == 0 }.reduce(:+)
+end
