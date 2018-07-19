@@ -8,7 +8,6 @@ def sum_multiples(limit)
 end
 
 
-
-def combination
-  (1...1000).select { |x| x % 3 == 0 || x % 5 == 0 }.reduce(:+)
-end
+# def combination
+#   (1...1000).select { |x| x % 3 == 0 || x % 5 == 0 }.reduce(:+)
+# end
